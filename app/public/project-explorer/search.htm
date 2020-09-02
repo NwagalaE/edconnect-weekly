@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Project Explorer</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-primary" style="background-color: #e3f2fd">
+        <a class="navbar-brand" href="index.html">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" id="search_term">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="search.htm">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="createproject.html">Submit</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Sign Up</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <h3 style="margin-left: 50px; margin-top: 100px;">Search Project By</h3>
+
+     <form action="#" method="POST" style="margin: auto; padding-top: 50px;">
+         <div class="Search">
+
+             <div class="form-row">
+
+                 <div class="form-group col-md-6">
+                     <input type="search" style="margin-top: 20px; margin-left: 20px;" class="form-control"
+                         name="Search">
+                 </div>
+
+                 <div class="form-group col-md-3">
+                     <input type="search" type="submit" style="margin-top: 20px; margin-left: 20px;" class="form-control"
+                         name="Search">
+                 </div>
+
+                 <div class="form-group col-md-3">
+                    
+                 </div>
+
+             </div>
+
+         </div>
+     </form>
+        
+            
+
+    <div class="samples-container">
+        <div class="sample">
+            <h3>Project 1</h3>
+            <p>Henry James, Bola Ade</p>
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Culpa explicabo atque.
+            </p>
+        </div>
+
+
+        <div class="sample">
+            <h3>Project 2</h3>
+            <p>Henry James, Bola Ade</p>
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Culpa explicabo atque.
+            </p>
+        </div>
+
+        <div class="sample">
+            <h3>Project 3</h3>
+            <p>Henry James, Bola Ade</p>
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Culpa explicabo atque.
+            </p>
+        </div>
+
+        <div class="sample">
+            <h3>Project 4</h3>
+            <p>Henry James, Bola Ade</p>
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit.
+                Culpa explicabo atque.
+            </p>
+        </div>
+    </div>
+
+    Project Name, Authors, Abstract, Tags:<br>
+    <input type="search" name="searchTerm"><br><br>
+
+    Name:<br>
+    <select name="authorName">
+        <option value="Ade_Bolade">Ade Bolade</option>
+        <option value="Brian Teleo">Brian Teleo</option>
+        <option value="James Correy">James Correy</option>
+    </select>
+
+    <button type="submit">Search</button><br><br><br>
+
+    <h3>Search Result</h3>
+
+    <h4>Project 2</h4>
+
+    <ul>
+        <li>
+            Name:Project 1
+        </li>
+
+        <li>
+            Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </li>
+
+        <li>
+            Program:Computer Science
+        </li>
+
+        <li>
+            Authors:Ade Ade, Brian James
+        </li>
+
+        <li>
+            Tags:#acdb, #ejs
+        </li>
+    </ul>
+
+    </body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.welcome-container{
+    display: flex;
+    background-color: rgb(223, 217, 217);
+    max-width: 1100px;
+    margin: 40px auto 40px auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.buttons{
+    display: flex;
+    margin: 50px;
+}
+
+a button:hover{
+    text-decoration: none;
+}
+
+div.welcome{
+    flex: 1;
+    margin: auto;
+}
+
+h2.welcome{
+    margin: 30px;
+}
+
+p.text {
+    margin: 30px;
+    font-size: 15px;
+}
+
+.samples-container{
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sample{
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width:22%;
+    border: solid whitesmoke;
+}
+
+.persona {
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    
+}
+
+.details{
+    flex:1;
+    padding: 20px 0 20px 20px;
+    background-color: rgb(223, 217, 217);
+}
+
+.hr{
+     max-width: 1100px;
+    margin: 40px auto 0 auto;
+}
+
+
+
+div.Search {
+    background-color: rgb(231, 231, 231);
+    max-width: 1100px;
+    
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
