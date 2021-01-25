@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-primary" style="background-color: #e3f2fd">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" style="background-color: #e3f2fd">
         <a class="navbar-brand" href="index.html">Project Explorer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,22 +45,35 @@
 
         </div>
     </nav>
-    <h2>Submit Project</h2>
 
-    Project Name:<br>
-    <input type="text" name="name"><br><br>
+    <form action="#" method="POST" style="width: 500px; margin: auto; padding-top: 50px;">
+        <h2 style="font-family:Arial, Helvetica, sans-serif;">Submit Project</h2>
 
-    Project Abstract:<br>
-    <textarea name="abstract"></textarea><br><br>
+        <div class="form-row" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: 500;">
+            <div class="form-group col-md-12">
+               Project Name
+               <input type="text" class="form-control" name="name" placeholder="Enter project name">
+            </div>
 
-    Authors:<br>
-    <input type="" name="authors"><br><br>
+            <div class="form-group col-md-12">
+                Project Abstract
+                <textarea name="abstract" style="height:200px;" class="form-control"></textarea>
+            </div>
 
-    Tags:<br>
-    <input type="" name="tags"><br><br>
+            <div class="form-group col-md-12">
+                 Author(s)
+                 <input type="" class="form-control" placeholder="Enter author names(seperated by ,)" name="authors">
+            </div>
 
-    <button type="submit">Submit</button>
+            <div class="form-group col-md-12">
+                 Tag(s)
+                 <input type="" class="form-control" placeholder="Use # to tag projects with different topics" name="tags">
+            </div>
 
+            <div>
+               <input type="submit" class="btn btn btn-primary" value="Submit">
+            </div>
+    </form>
 
     </body>
 </html>

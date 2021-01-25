@@ -36,7 +36,7 @@ p.text {
 }
 
 .samples-container{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 40px auto 0 auto;
     display: flex;
     justify-content: space-between;
@@ -44,38 +44,63 @@ p.text {
 
 .sample{
     border-radius: 10px 10px 10px 10px;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
     box-sizing: border-box;
     width:22%;
-    border: solid whitesmoke;
+    border: solid thin rgb(224, 219, 219);
 }
 
 .persona {
-    max-width: 1100px;
-    margin: 40px auto 0 auto;
-    display: flex;
-    
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;    
 }
 
 .details{
-    flex:1;
+    flex: 1;
     padding: 20px 0 20px 20px;
-    background-color: rgb(223, 217, 217);
+    background-color: rgba(223, 217, 217, 0.849);
 }
 
 .hr{
-     max-width: 1100px;
+    max-width: 1100px;
     margin: 40px auto 0 auto;
 }
 
 
 
 div.Search {
-    background-color: rgb(231, 231, 231);
-    max-width: 1100px;
-    
-    margin-top: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgb(245, 240, 240);
+}
+
+.form-row{
+    flex: 1;
+}
+
+/*.column-layout{
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display:flex;
+}
+
+/*.project-absract{
+    flex: 1;
+}
+
+.project-display{
+    flex: 1;
+}*/
+
+.my-box{
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
 }
